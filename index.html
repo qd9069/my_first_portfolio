@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio Page</title>
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
     <!--body section-->
@@ -14,37 +14,39 @@
         <header>
             <h1>Qiling Deng</h1>
             <!-- nav links to scroll in the page-->
-            <nav>
+            <nav class="scrollmenu">
                 <ul>
-                    <li>About Me</li>
-                    <li>Work</li>
-                    <li>Contact Me</li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#works">Work</a></li>
+                    <li><a href="#contactme">Contact Me</a></li>
                 </ul>
-
             </nav>
             <!--subtitle here with background image-->
-            <h2 class="subtitle">Welcome to my portfolio</h2>
+            <figure class="subtitle">
+                <h2>Welcome to my portfolio</h2>
+            </figure>
+            
         </header>
 
         <!--For main section-->
         <section>
             <!--1st section: About Me-->
-            <article>
+            <article id="aboutme" class="about_me">
                 <h3>About Me</h3>
             </article>
 
             <!--2nd section: Work-->
-            <article>
+            <article id="works" class="work">
                 <h3>Work</h3>
             </article>
 
             <!--3rd section: Contact Me-->
-            <article>
+            <article id="contactme" class="contact_me">
                 <h3>Contact Me</h3>
                     <ul>
-                        <li>Phone Number</li>
-                        <li>Email</li>
-                        <li>GitHub</li>
+                        <li><a href="tel:8888888888">Phone Number: (888)888-8888</a></li>
+                        <li><a href="mailto:someone@example.com">Email</a></li>
+                        <li><a href="#">GitHub</a></li>
                     </ul>
             </article>
 

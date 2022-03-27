@@ -1,11 +1,39 @@
 /* root   */
 
 
+li {
+   /* creating a horizontal list of links */
+   display: inline; 
+}
 
+a {
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+/* for class "scrollmenu" */
+nav .scrollmenu a {
+    /* color: lightblue; */
+}
 
 
 
 .subtitle {
     background-image: url("../images/portfolio_background.jpeg");
-    
+    height: 15vh;
+    background-size: cover;
 }
+
+figure h2 {
+    display: block;
+    background-color: lightblue;
+}
+
+
+
+
+/* for class "about_me" */
+/* for class "work" */
+/* for class "contact_me" */
