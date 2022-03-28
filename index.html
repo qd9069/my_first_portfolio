@@ -12,15 +12,18 @@
     <body>
         <!--For page header-->
         <header>
-            <h1>Qiling Deng</h1>
-            <!-- nav links to scroll in the page-->
-            <nav class="scrollmenu">
-                <ul>
-                    <li><a href="#aboutme">About Me</a></li>
-                    <li><a href="#works">Work</a></li>
-                    <li><a href="#contactme">Contact Me</a></li>
-                </ul>
-            </nav>
+            <div class="heading">
+                <h1>Qiling Deng</h1>
+                <!-- nav links to scroll in the page-->
+                <nav class="scrollmenu">
+                    <ul>
+                        <li><a href="#aboutme">About Me</a></li>
+                        <li><a href="#works">Work</a></li>
+                        <li><a href="#contactme">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
             <!--subtitle here with background image-->
             <figure class="subtitle">
                 <h2>Welcome to my portfolio</h2>
@@ -29,71 +32,81 @@
         </header>
 
         <!--For main section-->
-        <section>
+        <main>
             <!--1st section: About Me-->
-            <article id="aboutme" class="about_me">
+            <section id="aboutme" class="about_me">
                 <h3>About Me</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat quos optio culpa eaque cupiditate minima et maxime? Placeat libero suscipit excepturi similique, aspernatur, at officia facere totam molestias, iure dolorem.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos et facere, itaque ipsa repellendus excepturi ratione architecto explicabo eius quos assumenda deleniti dicta quisquam cupiditate exercitationem, culpa consectetur tempore labore.</p>
-            </article>
+            </section>
 
             <!--2nd section: Work-->
-            <article id="works" class="work">
+            <section id="works" class="work">
                 <h3>Work</h3>
                 <!--project 1-->
-                <main class="container1">
-                    <img src="./assets/images/clone-website.jpeg" alt="the clone website" style="width:100%;" class="image-responsive"> 
+                <article class="container1">
+                    <img src="./assets/images/clone-website.jpeg" alt="the clone website" style="width:100%" class="image-responsive"> 
                     <div class="text-block1">
                         <h4>Clone Website</h4>
                         <p>HTML, CSS & JavaScript</p>
                     </div>
-                </main>
-                <!--project 2-->
-                <main class="container2">
-                    <img src="./assets/images/crud_web_application.png" alt="image to show what CRUD is" style="width:100%;" class="image-responsive"> 
-                    <div class="text-block2">
-                        <h4>CRUD Web Application</h4>
-                        <p>JavaScript/React/Vue</p>
-                    </div>
-                </main>
-                <!--project 3-->
-                <main class="container3">
-                    <img src="./assets/images/qr_code_reader.png" alt="image to show the QR code reader" style="width:100%;" class="image-responsive"> 
-                    <div class="text-block3">
-                        <h4>QR Code Reader</h4>
-                        <p>HTML, CSS & JavaScript</p>
-                    </div>
-                </main>
-                <!--project 4-->
-                <main class="container4">
-                    <img src="./assets/images/perfect_score_website.png" alt="image to show the 'perfect score' website" style="width:100%;" class="image-responsive"> 
-                    <div class="text-block4">
-                        <h4>'Perfect Score' Website</h4>
-                        <p>Everything that meets the needs of the Chrome Lighthouse audit report</p>
-                    </div>
-                </main>
-                <!--project 5-->
-                <main class="container5">
-                    <img src="./assets/images/javascript_music_player.png" alt="image to show JavaScript music player" style="width:100%;" class="image-responsive"> 
-                    <div class="text-block5">
-                        <h4>JavaScript Music Player</h4>
-                        <p>HTML, CSS & JavaScript</p>
-                    </div>
-                </main>
-            </article>
+                </article>
+                
+                <article class="row">
+                    <!--project 2-->
+                    <section class="container2">
+                        <img src="./assets/images/crud_web_application.png" alt="image to show what CRUD is" style="width:100%" class="image-responsive"> 
+                        <div class="text-block2">
+                            <h4>CRUD Web Application</h4>
+                            <p>JavaScript/React/Vue</p>
+                        </div>
+                    </section>
+
+                    <!--project 3-->
+                    <section class="container3">
+                        <img src="./assets/images/qr_code_reader.png" alt="image to show the QR code reader" style="width:100%" class="image-responsive"> 
+                        <div class="text-block3">
+                            <h4>QR Code Reader</h4>
+                            <p>HTML, CSS & JavaScript</p>
+                        </div>
+                    </section>
+
+                </article>
+                
+                <article class="row">
+                    <!--project 4-->
+                    <section class="container4">
+                        <img src="./assets/images/perfect_score_website.png" alt="image to show the 'perfect score' website" style="width:100%" class="image-responsive"> 
+                        <div class="text-block4">
+                            <h4>'Perfect Score' Website</h4>
+                            <p>Everything that meets the needs of the Chrome Lighthouse audit report</p>
+                        </div>
+                    </section>
+                    
+                    <!--project 5-->
+                    <section class="container5">
+                        <img src="./assets/images/javascript_music_player.png" alt="image to show JavaScript music player" style="width:100%" class="image-responsive"> 
+                        <div class="text-block5">
+                            <h4>JavaScript Music Player</h4>
+                            <p>HTML, CSS & JavaScript</p>
+                        </div>
+                    </section>
+                </article>
+                
+            </section>
 
             <!--3rd section: Contact Me-->
-            <article id="contactme" class="contact_me">
+            <section id="contactme" class="contact_me">
                 <h3>Contact Me</h3>
                     <ul>
-                        <li><a href="tel:8888888888">Phone Number: (888)888-8888</a></li>
-                        <li><a href="mailto:someone@example.com">Email</a></li>
-                        <li><a href="#">GitHub</a></li>
+                        <li><a href="tel:8888888888"><strong>Number: (888)888-8888</strong></a></li>
+                        <li><a href="mailto:someone@example.com"><strong>Email</strong></a></li>
+                        <li><a href="#"><strong>GitHub</strong></a></li>
                     </ul>
-            </article>
+            </section>
 
 
-        </section>
+        </main>
 
         <!--For page footer-->
         <footer>
