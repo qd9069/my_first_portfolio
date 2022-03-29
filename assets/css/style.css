@@ -81,12 +81,37 @@ a {
     margin: 20px;
 }
 
-
-#aboutme h3 {
-    border-right: solid 3px #13293d;
-    
+/* For About Me section */
+.about_me {
+    padding-top: 1em;
+    display: flex;
 }
-/* for class "about_me" */
+
+.col-left {
+    width: 30%;
+    border-right: 4px solid #6e5583;
+  }
+
+.col-right {
+    width: 70%;
+    padding-left: 20px; 
+    padding-right: 20px;
+    margin: 0 15px;
+}
+
+.col-left h3 {
+    text-align: right;
+    padding-right: 20px;
+    color: var(--deepblue);
+    font-size: 50px;
+    margin: 0;
+    /* inline-size: 220px;
+    overflow-wrap: break-word; */
+}
+
+.col-right p {
+    margin: 0 0 15px 0;
+}
 
 /* for class "work" */
 .work {
