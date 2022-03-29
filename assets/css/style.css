@@ -1,38 +1,51 @@
 /* root and variable  */
 :root {
 --light: lightblue;
+--deepblue: #31305a;
 }
 
 * {
     box-sizing: border-box;
-    /* background-color: rgb(226, 247, 253); */
+    /* margin: 0; */
+    /* padding: 0; */
   }
 
+body {
+    background-color: rgb(226, 247, 253);
+    font-size: 16px;
+}
+
 .heading {
-    display: block;
-    background: #4e72c2;
+    display: flex;
+    justify-content: space-between;
+    /* background: #4e72c2; */
+    background: var(--deepblue);
 }
 
 .heading h1 {
     background-color: var(--light);
+    padding: 15px 15px 15px 75px;
+    color: var(--deepblue);
 }
 
-
 li {
-   /* creating a horizontal list of links */
-   display: inline; 
-   
+    /* creating a horizontal list of links */
+    display: inline; 
 }
 
 a {
     display: inline-block;
     text-align: center;
+    border-bottom: 3px solid;
+    text-decoration: none;
 }
 
 /* for class "scrollmenu" */
 .scrollmenu {
     color: var(--light);
     text-align: right;
+    margin: 20px;
+    padding: 20px;
 }
 
 .scrollmenu ul {
@@ -40,10 +53,12 @@ a {
 }
 
 .scrollmenu a {
-    padding: 8px;
+    padding: 8px 8px 4px 8px;
+    font-weight: bolder;
+    color: var(--light);
 }
 
-
+/* Container holding the image and the text */
 .subtitle {
     background-image: url("../images/portfolio_background.jpeg");
     height: 20vh;
@@ -51,15 +66,19 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     margin: 0%;
+    position: relative;
+    text-align: center;
 }
 
-figure h2 {
-    display: block;
+.text-block0 {
     background-color: var(--light);
-    /* background-size: auto 6px; */
-    color: black;
-    text-align: right;
+    color: var(--deepblue);
+    bottom: 3px;
+    right: 20px;
     margin: 0%;
+    position: absolute;
+    padding: 13px;
+    margin: 20px;
 }
 
 
@@ -85,8 +104,9 @@ figure h2 {
    /* container1 - Container holding the image and the text */
 .container1 {
     position: relative;
-    flex: 100%;
+    /* flex: 100%; */
     /* max-width: 100%; */
+    width: 100%;
     margin: 5px 20px;
     border: 10px solid var(--light);
 
@@ -95,8 +115,7 @@ figure h2 {
 .container2, .container3, .container4, .container5 {
     float: left;
     position: relative;
-    flex: 50%;
-    /* max-width: 50%; */
+    width: 50%; 
     margin: 5px 10px;
     border: 10px solid var(--light);
 }
