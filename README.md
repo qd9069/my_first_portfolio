@@ -17,11 +17,11 @@ Welcome to my personal portfolio page!
 
 In this webpage, you will see projects and work applications that I have been developed and deployed. 
 
-The main purpose of this project is to build my first Portfolio Webpage and to practise my skills in HTML and CSS. This gives me a very good opptunity to practise skills like flexbox, media queries, and the use of variables in CSS. 
+The main purpose of this project is to build my first Portfolio Webpage and to practise my skills in HTML and CSS. This gives me a very good opptunity to practise skills such as flexbox, media queries, and the use of variables in CSS. 
 
-I have so much fun while working on this project ❤️ 
+I had so much fun while working on this project ❤️ 
 
-AND Please feel free to reach out if you have any questions or comments regarding my portfolio webpage or other projects! 
+Please feel free to reach out if you have any questions or comments regarding my portfolio webpage or other projects! 
 ```
 
 ## Usage
